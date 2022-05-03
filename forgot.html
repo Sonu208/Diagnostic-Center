@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<title>Diagnostic Centre </title>
+<link rel ="stylesheet" href ="css/mystyle.css">
+<script>
+function validateForm() {
+  let x = document.forms["myForm"]["Email"].value;
+  if (x == "") {
+    alert("Email must be filled out");
+    return false;
+  }
+  if (x !="" )
+    {
+      alert("You Password is succesfully reset!!");
+    }  
+    
+  }
+
+  </script>                 
+<style>
+  .button {
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+div {
+  background-color: lightgrey;
+  width: 320px;
+  border: 10px solid tomato;
+  padding: 20px;
+  margin: 20px;
+}  
+       body {background-blend-mode: very lighten;background-image: url("jpg/download5.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: 2000px;}
+h1,h3{font-family: "Times New Roman", Times, serif;}
+.button1 {background-color: #4CAF50;}
+</style>
+
+</head>
+<body>
+<header>
+<img src="jpg/dia.jpg"  width="150px" height="130px"  align="left">
+  <h1 style="color:Tomato;">Apex Diagnostics Center</h1>
+<ul>
+   <li><a href="index.php"target="_self"> Home</a></li>
+
+       
+	
+	
+	      
+	       <li><a href="test.php">Book a test</a></li>
+               
+
+	           <li><a href="facilities.html"> Facilities</a></li>
+          
+        
+	 
+       <li><a href="contact.html">Contact us</a></li>
+ 
+ 
+       <li><a href="register.php">Register</a>
+
+        <li><a href="login.php">Login</a></li>
+
+</li>
+</ul>
+<hr>
+<br>
+<br>
+<br>
+
+</header>
+<body>
+  <center>
+<div class="header">
+  <center><h2>Password Reset</h2></center>
+  
+
+  <form name="myForm" method="POST" action="forgot.html" onsubmit="return validateForm()" >
+
+  <center>
+  
+  
+    <img src="jpg/forgot.jpg"  width="300" height="300">
+  
+<br>
+<h4>We'll email you instructions to reset the password</h4></center>
+<br>
+
+
+
+    
+ 
+    <center>
+  	  <label>Email:</label>
+  	 <input type="email" name="Email" >
+  	
+  </center> 
+
+<br>
+
+  <center>
+	<!-- <button type="submit" class="btn" name="login">Reset</button> -->
+  <button class="button button1">Reset</button>
+  	</div>
+ 
+<br>
+</center>
+</form>
+<script>
+  function myFunction() {
+      alert("The form was submitted");
+    }
+    </script>
+<br>
+
+<center><a href="index.html"><h3 style="color:black;background-color:#DCDCDC;">Back To The Home Page</h3></a></center></footer>
+
+</body>
+</html>

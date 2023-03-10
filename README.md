@@ -1,8 +1,6 @@
 # Diagnostic-Center
 
-Screenshots of the Web App
-
-# FRT project by Sonu Pradhan (Azure Services used : Azure HealthBot , Static Web apps)
+Project by Sonu Pradhan (Azure Services used : Azure HealthBot , Static Web apps)
 
 Video Demo : https://www.youtube.com/watch?v=7jgEZHYB6Mk&t=1s
 
